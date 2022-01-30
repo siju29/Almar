@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="/style.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/f3b3646c83.js" crossorigin="anonymous"> </script>
+    <title>Solicitudes</title>
+</head>
+
+<body>
+    <header>
+        <img src="/fotosgaleria/logo.jpg" alt=¨logo¨ class="logoHeader">
+        <nav>
+            <ul class=nav>
+                <li> <a href="/index.html"> Inicio</a> </li>
+                <li> <a href="./reservas.html"> Reservas<a> </li>
+                <li><a href="./galeria.html"> Galeria</a> </li>
+                <li class="active"><a href="./solicitudes.html">Solicitudes y Contacto</a> </li>
+                <li><a href="./trabajaConNosotros.html">Trabaja con nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex-container">
+        <div class="caja">
+            <form>
+                <label for=primer> Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for=Apellido> Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+
+                <label for=telefono> Telefono:</label>
+                <input type="text" id="telefono" name="Telefono">
+
+                <div>
+                    <input class="radio" type="radio" id="almuerzo" name="dia o noche">
+                    <label for="almuerzo">Almuerzo</label>
+
+                    <input class="radio" type="radio" id="cena" name="dia o noche">
+                    <label for="cena"> Cena </label>
+
+                    <input class="radio" type="radio" id="evento" name="dia o noche">
+                    <label for="evento">Evento</label>
+
+                </div>
+                <div>
+                    <p class="opcion">Elige la opcion:</p>
+                    <select class="opcion" name="tipo de evento">
+                        <option value="almuerzo con  reserva previa">Almuerzo con reserva previa</option>
+                        <option value="cena con reserva previa>Cena con reserva previa"> Cena con reserva previa
+                        </option>
+
+                        <option value="casamiento">Casamiento</option>
+                        <option value="cumpleaños de 15">Cumpleaños de 15</option>
+                        <option value="otro cumpleaños"> Otro tipo de cumpleaños</option>
+                        <option value="evento empresarial">Evento Empresarial</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <p class="opcion"> En caso de haber elegido otro, cual es: </p>
+                <textarea name="opcion" cols="30" rows="3'"></textarea>
+                <p class="opcion"> Elige la fecha deseada:</p>
+                <input type="date" id=fecha name=fecha></input>
+                <p class="opcion"> Deja tu mensaje</p>
+                <textarea name="deja tu mensaje" id="" cols="70" rows="10">
+                    </textarea>
+                <input class="boton" type="submit" value="Enviar">
+                <input class="boton" type="button" value="Cancelar">
+            </form>
+        </div>
+        <div class="caja">
+            <img src="../fotosgaleria/almar2.pg.jpeg" alt=imagen style=float:right width="600">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="piePagina">
+            <h3>Contacto</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi maiores tempora quod similique culpa aut
+                nemo
+                animi a, corrupti neque?</p>
+            <ul>
+                <li> Almaralmar@gmail.com</li>
+                <li>2900 0026</li>
+                <li>Rambla Mahatma Gandi 1584 </li>
+            </ul>
+        </div>
+        <div class="piePagina">
+            <h3>Redes Sociales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, magnam! Ad, itaque fugiat. Nisi
+                accusamus
+                quae aut. Animi, libero facilis.</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/almar.restaurant/" target=_blank> <i
+                        class="fab fa-instagram fa-3x"></i> </a>
+                <a href="https://www.facebook.com/restaurant.almar/" target=_blank> <i class="fab fa-facebook-f fa-3x">
+                    </i></a>
+            </div>
+            <div class="piePagina">
+                <h3>Ubicacion</h3>
+                <div class="mapouter">
+                    <iframe width="300" height="200" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=rambla%20Rep%C3%BAblica%20de%20M%C3%A9xico%205535&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+    </footer>
+
+</body>
+
+</html>
