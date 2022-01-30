@@ -5,7 +5,8 @@
 
 body {
   background-color: #fbf8f8;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*clases generales*/
@@ -39,7 +40,8 @@ header {
   font-size: large;
   text-align: center;
   align-items: flex-start;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   grid-area: 1 / 1 / 2 / 4;
 }
 
@@ -87,6 +89,27 @@ a:hover {
   width: 65%;
   object-fit: cover;
 }
+
+
+/* .carousel-inner{
+  animation: imagenes 15s 1s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes imagenes {
+  0% {
+    background-image: url(./fotosgaleria/deconoche.jpeg);
+  }
+  30% {
+    background-image: url(./fotosgaleria/vals.jpeg);
+  }
+  70% {
+    background-image: url(./fotosgaleria/atardecer2.jpeg);
+  }
+  100% {
+    background-image: url(./fotosgaleria/deco.jpeg);
+  }
+} */
 
 /* fin carousel */
 
@@ -251,10 +274,14 @@ footer {
   height: 340px;
   margin: 5px;
   object-fit: cover;
-  transition: width 3s, height 3s;
+  transition: transform 2s;
 }
 
-/* ver tema de dimensiones de fotos quedan afuera de pantalla  */
+.fotogaleria:hover{
+    transform: scale(1.2, 1.2);
+    object-fit: contain;
+}
+
 
 .galeriavideo {
   margin-bottom: 10px;
@@ -282,7 +309,8 @@ form {
   width: 460px;
   padding: 1em;
   border-radius: 1em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 label {
