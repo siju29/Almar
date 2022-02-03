@@ -309,8 +309,7 @@ footer {
 }
 
 .fotoForm{
-    object-fit: cover;
-    height: 50%;
+    object-fit: contain;
     width: 100%;
   }
 
