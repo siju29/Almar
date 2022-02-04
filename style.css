@@ -319,15 +319,6 @@ footer {
   justify-content: space-between;
   padding: 5%;
 }
-/* 
- form {
-  margin: 0 auto;
-  width: 460px;
-  padding: 1em;
-  border-radius: 1em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}  */
 
 label {
   display: inline-block;
