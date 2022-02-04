@@ -213,9 +213,7 @@ footer {
 .mapouter {
   text-align: center;
 }
-.mapouter iframe {
-  width: 250%;
-}
+
 
 .redes {
   text-align: center;
@@ -311,6 +309,7 @@ footer {
 .fotoForm{
     object-fit: contain;
     width: 100%;
+    padding-left: 10%;
   }
 
 .flex-container {
