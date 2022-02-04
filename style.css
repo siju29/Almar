@@ -72,6 +72,7 @@ header {
 a {
   color: #3e54a4;
   text-decoration: none;
+
 }
 
 a:hover {
@@ -183,7 +184,6 @@ a:hover {
 
 footer {
   padding-top: 25px;
-  background-color: #ecf0f3;
   grid-area: 7 / 1 / 8 / 4;
   display: flex;
   flex-wrap: wrap;
@@ -214,7 +214,7 @@ footer {
   text-align: center;
 }
 .mapouter iframe {
-  width: 80%;
+  width: 250%;
 }
 
 .redes {
