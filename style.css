@@ -7,7 +7,7 @@ body {
   background-color: #fbf8f8;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}b                         
+}                   
 
 /*clases generales*/
 
@@ -176,6 +176,16 @@ a:hover {
   width: 600px;
   margin: 73px 40px;
   color: #8a9fd5;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3{
+  color:#ff9a9a;
+  text-decoration: solid;
+  text-align: center;
+  font-family: 'Bangers', cursive;
 }
 
 /* fin de secciones */
@@ -199,7 +209,7 @@ footer {
   list-style-type: none;
 }
 
-.piePagina h3 {
+.piePagina h4 {
   color: #ff9a9a;
   margin-bottom: 10%;
   text-align: center;
