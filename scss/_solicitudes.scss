@@ -1,0 +1,91 @@
+.caja{
+    width: 40%;
+    height: 500px;
+  
+}
+
+.fotoForm{
+    object-fit: contain;
+    width: 100%;
+    padding-left: 10%; 
+    margin-top: 15%;
+}
+
+form{
+    .Contacto{
+        margin-top: 10%;
+    }
+    .Consulta{
+        margin-top: 40%;
+    }
+
+}
+
+flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #3e54a4;
+    margin-top: 10px;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+    margin-top: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+
+    .textarea{
+        vertical-align: top;
+        height: 5em;
+
+        .button{
+            margin-left: 0.5em;
+            padding-left: 90px;
+        }
+
+        .radio{
+            width: 50px;
+        }
+
+        .opcion{
+            margin-top: 10px;
+            color: #3e54a4;
+        }
+
+        .boton{
+            color: #3e54a4;
+        }
+    }
+}
+
+.sectionContainerGrid{
+    grid-column: 1/4;
+    display: grid;
+    margin: 50px 10%;
+    grid-auto-columns: auto auto;
+
+    .horarios{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .foto{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+}
+
+
+
+.FormTrabajo{
+    margin-top: 40px;
+}
+    
