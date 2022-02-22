@@ -2,6 +2,7 @@ $colorFondo:#fbf8f8;
 
 /*Extend*/
 
+
 %flexFooter{
     display:flex;
     flex-wrap:wrap;
@@ -30,6 +31,8 @@ $colorFondo:#fbf8f8;
         @content
     }
 }
+
+/*map*/
 
 $colores:(
     primario: #3e54a4,
