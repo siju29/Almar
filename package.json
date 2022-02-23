@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siju29/coderhouse.git"
+    "url": "git+https://github.com/siju29/Almar.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/siju29/coderhouse/issues"
+    "url": "https://github.com/siju29/Almar/issues"
   },
-  "homepage": "https://github.com/siju29/coderhouse#readme",
+  "homepage": "https://github.com/siju29/Almar#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
