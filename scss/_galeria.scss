@@ -16,8 +16,9 @@
     width: 600px;
     height: 340px;
     margin: 5px;
-    object-fit: cover;
     transition: transform 2s;
+    position:absolute;
+    object-fit: contain;
 
     &:hover{
         transform: scale(1.2, 1.2);
@@ -28,4 +29,5 @@
 
 .galeriaVideo{
     margin-bottom: 10px;
+    text-align: center;
 }
