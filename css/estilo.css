@@ -127,9 +127,6 @@ footer .redes {
 
 footer .redes a {
   padding: 5%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
 }
 
 footer .redes img {

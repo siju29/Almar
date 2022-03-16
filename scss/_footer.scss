@@ -37,12 +37,9 @@ footer {
 
     a {
       padding: 5%;
-      display: inline-flex;
       &:hover{
         color:map-get($colores,secundario);
-
       }
-
     }
 
     img {

@@ -8,6 +8,7 @@
         "../scss/_footer.scss",
         "../scss/_index.scss",
         "../scss/_reservas.scss",
+        "../scss/_solicitudes.scss",
         "../scss/_galeria.scss"
     ],
     "names": [],
